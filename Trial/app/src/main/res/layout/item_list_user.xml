@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/itemAvatar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="32dp"
+        android:contentDescription="Avatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/itemAvatar"
+        app:layout_constraintTop_toTopOf="@id/itemAvatar"
+        tools:text="Name"/>
+
+    <TextView
+        android:id="@+id/itemEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/itemName"
+        app:layout_constraintTop_toBottomOf="@id/itemName"
+        tools:text="Email"/>
+
+    <ImageView
+        android:id="@+id/itemAvatar1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="Avatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/itemName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/itemAvatar1"
+        app:layout_constraintTop_toTopOf="@id/itemAvatar1"
+        tools:text="Name"/>
+
+    <TextView
+        android:id="@+id/itemEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/itemName1"
+        app:layout_constraintTop_toBottomOf="@id/itemName1"
+        tools:text="Email"/>
+
+    <ImageView
+        android:id="@+id/itemAvatar2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="Avatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/itemName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/itemAvatar2"
+        app:layout_constraintTop_toTopOf="@id/itemAvatar2"
+        tools:text="Name"/>
+
+    <TextView
+        android:id="@+id/itemEmail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/itemName2"
+        app:layout_constraintTop_toBottomOf="@id/itemName2"
+        tools:text="Email"/>
+
+    <ImageView
+        android:id="@+id/itemAvatar3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="Avatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/itemName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/itemAvatar3"
+        app:layout_constraintTop_toTopOf="@id/itemAvatar3"
+        tools:text="Name"/>
+
+    <TextView
+        android:id="@+id/itemEmail3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/itemName3"
+        app:layout_constraintTop_toBottomOf="@id/itemName3"
+        tools:text="Email"/>
+
+    <ImageView
+        android:id="@+id/itemAvatar4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="Avatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/itemName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/itemAvatar4"
+        app:layout_constraintTop_toTopOf="@id/itemAvatar4"
+        tools:text="Name"/>
+
+    <TextView
+        android:id="@+id/itemEmail4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/itemName4"
+        app:layout_constraintTop_toBottomOf="@id/itemName4"
+        tools:text="Email"/>
+
+    <ImageView
+        android:id="@+id/itemAvatar5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:contentDescription="Avatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/itemName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/itemAvatar5"
+        app:layout_constraintTop_toTopOf="@id/itemAvatar5"
+        tools:text="Name"/>
+
+    <TextView
+        android:id="@+id/itemEmail5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/itemName5"
+        app:layout_constraintTop_toBottomOf="@id/itemName5"
+        tools:text="Email"/>
+
+    <ImageView
+        android:id="@+id/itemAvatar6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="Avatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.865"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/itemName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/itemAvatar6"
+        app:layout_constraintTop_toTopOf="@id/itemAvatar6"
+        tools:text="Name"/>
+
+    <TextView
+        android:id="@+id/itemEmail6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/itemName6"
+        app:layout_constraintTop_toBottomOf="@id/itemName6"
+        tools:text="Email"/>
+
+    <ImageView
+        android:id="@+id/itemAvatar7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="24dp"
+        android:contentDescription="Avatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/itemName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/itemAvatar7"
+        app:layout_constraintTop_toTopOf="@id/itemAvatar7"
+        tools:text="Name"/>
+
+    <TextView
+        android:id="@+id/itemEmail7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/itemName7"
+        app:layout_constraintTop_toBottomOf="@id/itemName7"
+        tools:text="Email"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
